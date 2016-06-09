@@ -33,6 +33,9 @@ import javax.swing.Icon;
 
 import java.awt.Cursor;
 
+
+//Used images in the Code is present in the img folder of the repository !
+
 public class ltriangle implements ActionListener{
 
 	private JFrame frame;
@@ -116,6 +119,8 @@ public class ltriangle implements ActionListener{
 		
 		
 		//JPanel panel = new JPanel();
+
+		//image is present in the img folder
 		ImagePanel panel = new ImagePanel(new ImageIcon("1.gif").getImage());
 		//ImageIcon img=new ImageIcon("bglove.jpg");
 		//panel.setBackground(Color.pink);
@@ -152,6 +157,8 @@ public class ltriangle implements ActionListener{
 		txtp2.setColumns(10);
 		txtp2.setBounds(344, 141, 256, 20);
 		panel.add(txtp2);
+
+		//image is present in the img folder of the repository
 		ImageIcon imgcalci=new ImageIcon("btncal.png");
 		JButton btnCalculate = new JButton((Icon) null);
 		btnCalculate.setBorder(new LineBorder(new Color(255, 20, 147), 2));
@@ -233,6 +240,8 @@ public class ltriangle implements ActionListener{
 					Color c1=new Color(0,0,0);	
 						comment1.setForeground(c1);
 				t.start();
+
+				//Please Neglect if offending Naughty comments
 				  if(result==0&&c==3)
 				  {
 					  
@@ -325,6 +334,7 @@ public class ltriangle implements ActionListener{
 		btnReset.setBounds(307, 231, 109, 41);
 		panel.add(btnReset);
 		
+		//image is present in the img folder of the repository
 		JLabel lblrevheart = new JLabel(new ImageIcon("rheart.gif"));
 		lblrevheart.setBounds(238, 87, 103, 86);
 		panel.add(lblrevheart);
